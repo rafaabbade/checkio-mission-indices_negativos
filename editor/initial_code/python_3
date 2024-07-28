@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def indices_negativos(lista):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(indices_negativos([10, 20, 30, 40, 50]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert indices_negativos([10, 20, 30, 40, 50]) == [30, 40, 50]
+assert indices_negativos([1, 2, 3]) == [1, 2, 3]
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
